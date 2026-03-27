@@ -1,11 +1,11 @@
 import httpx
-from pydantic import TypeAdapter
 from models.models import (
     CityResponse,
-    WeatherResponse,
     ForecastResponse,
     ThreeDayForecastResponse,
+    WeatherResponse,
 )
+from pydantic import TypeAdapter
 
 
 class OpenWeatherAPIService:

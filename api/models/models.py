@@ -1,5 +1,5 @@
-from pydantic import BaseModel, Field
 from typing import Optional
+
 from models.childmodels import (
     ForecastCity,
     ForecastItem,
@@ -7,6 +7,7 @@ from models.childmodels import (
     WeatherStats,
     WeatherSys,
 )
+from pydantic import BaseModel, Field
 
 
 class CityResponse(BaseModel):
